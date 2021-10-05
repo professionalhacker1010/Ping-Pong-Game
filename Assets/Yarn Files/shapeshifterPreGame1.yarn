@@ -1,0 +1,38 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Player>>
+Hellooo
+Anyone here?
+
+<<disable_bubble CutsceneDB>>
+<<shapeshifterIntro>>
+<<enable_bubble CutsceneDB>>
+
+Whoa!!! Nice entrance!
+
+<<change_speaker Shapeshifter>>
+:3
+
+<<change_speaker Player>>
+[[:3 | next1]]
+[[(*^_^)~ | next2]]
+===
+
+title: next1
+tags:
+---
+:3
+
+<<disable_bubble CutsceneDB>>
+<<shapeshifterOutro>>
+===
+
+title: next2
+tags:
+---
+(*^_^)~
+
+<<disable_bubble CutsceneDB>>
+<<shapeshifterOutro>>
+===

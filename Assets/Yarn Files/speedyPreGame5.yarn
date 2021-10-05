@@ -1,0 +1,20 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Speedy>>
+You got me an energy drink! So thoughtful of you.
+
+<<disable_bubble CutsceneDB>>
+<<wait 0.5>>
+<<change_emotion Speedy energize>>
+<<wait 2>>
+<<change_emotion Speedy Win>>
+<<enable_bubble CutsceneDB>>
+
+All right!!!
+I don't know what they put in this stuff
+but one drink makes me feel like I could run 100000000000000 miles an hour.
+I'm gonna productively channel all of my energy into this game.
+You should have a drink too, if you wanna keep up with me.
+<<end_speaker>>
+===

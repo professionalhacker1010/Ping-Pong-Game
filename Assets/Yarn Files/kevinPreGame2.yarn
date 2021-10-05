@@ -1,0 +1,18 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Kevin>>
+Well? What's the holdup?
+
+<<change_speaker Player>>
+You came here for the fried {$item} too?
+
+<<change_speaker Kevin>>
+Blegh no... I'm here to WIN.
+And beat some NOOBS!
+But I guess a raccoon like you would like that sort of thing.
+
+<<change_speaker Player>>
+I sure do!
+<<end_speaker>>
+===

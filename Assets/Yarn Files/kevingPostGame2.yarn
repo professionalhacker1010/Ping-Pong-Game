@@ -1,0 +1,25 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Kevin>>
+So, you've come to challenge me again?
+[[Yes. | yes]]
+[[What are you watching? | watching]]
+===
+
+title: yes
+---
+How very bold of you.
+Meet me at the table when you're ready to get CREAMED.
+<<end_speaker>>
+===
+
+title: watching
+---
+Oh, this?
+It's a video compilation of EPIC WINS.
+REALLY gets the adrenaline pumping for my next match.
+
+//Kevin shows you the video?
+<<end_speaker>>
+===

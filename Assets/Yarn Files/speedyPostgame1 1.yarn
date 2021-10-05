@@ -1,0 +1,25 @@
+﻿title: Start
+tags:
+---
+<<change_emotion Speedy Lose>>
+<<start_speaker Speedy>>
+Huh.
+Not bad.
+<<wait 1.5>>
+<<change_emotion Speedy Win>>
+Heh, actually
+maybe I'm slowing down a little from all that caffeine.
+As in I might have overdosed.
+I'm extremely light-headed and my heart rate is through the roof.
+I'm also experiencing a bout of debilitating anxiety.
+
+<<change_speaker Player>>
+Oh gosh!! I'm sorry!
+
+<<change_speaker Speedy>>
+Don't be. I like living on the edge.
+That being said
+I think I'll just...
+Stand here. For the rest of the day.
+<<end_speaker>>
+===

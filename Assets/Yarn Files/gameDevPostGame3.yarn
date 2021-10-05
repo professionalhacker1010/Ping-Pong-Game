@@ -1,0 +1,20 @@
+﻿title: Start
+tags:
+---
+<<start_speaker GameDev>>
+...
+you wanna play my game again
+[[Sure! | startGame]]
+[[Nah | no]]
+<<end_speaker>>
+===
+
+title: startGame
+---
+<<end_speaker>>
+===
+
+title: no
+---
+<<end_speaker>>
+===

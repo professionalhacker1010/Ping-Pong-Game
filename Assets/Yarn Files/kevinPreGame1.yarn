@@ -1,0 +1,24 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Kevin>>
+Hi.
+
+<<change_speaker Player>>
+Hi!
+
+<<change_speaker Kevin>>
+<<change_emotion Kevin Win>>
+You're the first of MANY who've dared challenge me.
+Many have failed.
+You're just another pebble to kick.
+<<change_emotion Kevin Backhand>>
+Another NOOB.
+
+<<change_speaker Player>>
+Ok.
+
+<<change_speaker Kevin>>
+Approach the table, challenger!!
+<<end_speaker>>
+===

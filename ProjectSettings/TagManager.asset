@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Transitions
+  - Settings
+  - Dialogue
+  - Input
+  - Bubble
+  - PersistentData
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Pause Menu
+  - Water
+  - UI
+  - vzdfvd
+  - Post Processing
+  - Pixel
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 2072133501
+    locked: 0
+  - name: Hard Hit Indicator
+    uniqueID: 499981205
+    locked: 0
+  - name: Opponent
+    uniqueID: 2050505361
+    locked: 0
+  - name: Opponent Paddle
+    uniqueID: 918974745
+    locked: 0
+  - name: Table
+    uniqueID: 3622557345
+    locked: 0
+  - name: Shadow
+    uniqueID: 2563990383
+    locked: 0
+  - name: Ping Pong
+    uniqueID: 3150926799
+    locked: 0
+  - name: Player Paddle
+    uniqueID: 3393690861
+    locked: 0
+  - name: UI
+    uniqueID: 2685951643
+    locked: 0
+  - name: Transition
+    uniqueID: 2042436089
+    locked: 0
+  - name: Intro Card
+    uniqueID: 3005445997
+    locked: 0
+  - name: Intro Animation
+    uniqueID: 1218288287
+    locked: 0

@@ -1,0 +1,97 @@
+﻿title: Start
+tags: 
+colorID: 0
+position: 374,87
+---
+<<change_sprite CutsceneDB kevinNeutral>>
+<<change_sprite_loc CutsceneDB x5y0>>
+<<reset_BG_transform CutsceneDB>>
+<<change_BG CutsceneDB insideLot>>
+<<change_bubble_loc CutsceneDB character>>
+<<disable_bubble CutsceneDB>>
+<<wait 2>>
+<<enable_bubble CutsceneDB>>
+KEVIN: I can't believe it.
+KEVIN: I pulled every trick in the book
+KEVIN: and still I get beat by some noob.
+KEVIN: Ghhhh, I'm a loser!!
+KEVIN: I...
+KEVIN: D-don't look at me!
+[[Are you okay|areYouOK]]
+[[Only technically!|onlyTechnically]]
+===
+
+title: areYouOK
+tags: 
+colorID: 0
+position: 374,87
+---
+KEVIN: I don't think you realize
+KEVIN: that the prize for this ping pong tournament
+KEVIN: is a bucket of Fried and Fancy's new fried {$item}!!!
+KEVIN: And I want to be the one to tell my friends whether it tastes good or not.
+KEVIN: To put it precisely, I'm not okay.
+[[I already know what it tastes like. It tastes bad.|tastesGood]]
+[[I already know what it tastes like. It tastes good.|tastesBad]]
+===
+
+title: onlyTechnically
+tags: 
+colorID: 0
+position: 374,87
+---
+KEVIN: What?
+KEVIN: Of course I'm not a Loser loser.
+KEVIN: Why do you think I'm here, in this parking lot, playing ping pong?
+KEVIN: Being the first to taste Fried and Fancy's new fried {$item} will just make me even COOLER.
+KEVIN: But no. I'm a technical loser.
+[[I already know what it tastes like. It tastes bad.|tastesBad]]
+[[I already know what it tastes like. It tastes good.|tastesGood]]
+===
+
+title: tastesGood
+tags: 
+colorID: 0
+position: 374,87
+---
+KEVIN: Really!? What exactly does it taste like?
+[[Only I should know. It was stolen from me.|onlyYouKnow]]
+[[Like chicken|kevinKnows]]
+===
+
+title: tastesBad
+tags: 
+colorID: 0
+position: 374,87
+---
+KEVIN: Really!? What exactly does it taste like?
+[[Only I should know. It was stolen from me.|onlyYouKnow]]
+[[Like sweaty nickels|kevinKnows]]
+===
+
+title: onlyYouKnow
+tags: 
+colorID: 0
+position: 374,87
+---
+KEVIN: Whoa.
+KEVIN: The warehouse manager stole your {$item}? And fried it?
+KEVIN: Well, lucky for you, I'm a righteous man. A pacifist.
+KEVIN: I'm gonna tell everyone that fried {$item} tastes horrible.
+KEVIN: Good luck on the rest of the tournament. Some of these people look preeetty intense.
+<<end_cutscene CutsceneDB>>
+===
+
+title: kevinKnows
+tags: 
+colorID: 0
+position: 374,87
+---
+KEVIN: Um
+KEVIN: Why would {$item} taste like that?!
+KEVIN: Unless they're adding some secret sauce
+KEVIN: in those Fried and Fancy labratories...
+KEVIN: Welp, I'm gonna tell everyone that fried {$item} tastes horrible.
+KEVIN: Good luck on the rest of the tournament. Some of these people look preeetty intense.
+<<end_cutscene CutsceneDB>>
+===

@@ -1,0 +1,15 @@
+﻿title: Start
+tags:
+---
+<<start_speaker GameDev>>
+...
+...
+<<change_emotion GameDev sitStill>>
+oh hi
+im not much of a physical movement person
+so im making a ping pong game
+but it's not ready yet
+sorry
+<<change_emotion GameDev typing>>
+<<end_speaker>>
+===

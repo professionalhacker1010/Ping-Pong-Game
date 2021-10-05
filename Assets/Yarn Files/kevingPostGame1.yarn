@@ -1,0 +1,53 @@
+﻿title: Start
+tags:
+---
+<<change_emotion Kevin Lose>>
+<<wait 2>>
+<<start_speaker Kevin>>
+I can't believe it.
+I pulled every trick in the book.
+And still I get beat out by the FIRST person I play.
+Ghhh I'm a loser!!
+I...
+D-don't look at me!
+[[Comfort|areYouOK]]
+[[Discomfort|onlyTechnically]]
+===
+
+title: areYouOK
+---
+<<change_speaker Player>>
+Are you ok...?
+[[end]]
+===
+
+title: onlyTechnically
+---
+<<change_speaker Player>>
+You're only technically a loser!
+
+<<change_speaker Kevin>>
+Ghhhhhhhhhhhhhh...
+
+<<change_speaker Player>>
+[[end]]
+===
+
+title: end
+---
+Do you need... some Fried and Fancy chicken?
+
+<<change_emotion Kevin Idle>>
+<<change_speaker Kevin>>
+PSHH
+I don't even like chicken. It's fine.
+But, if you ever work up the courage for a REMATCH
+I'll be in the corner watching videos on my phone.
+
+<<change_emotion Kevin Win>>
+And this time, I'll DEFINITELY win!
+
+<<end_speaker>>
+<<transition_out>>
+<<transition_in>>
+===

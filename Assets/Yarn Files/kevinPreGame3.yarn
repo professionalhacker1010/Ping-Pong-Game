@@ -1,0 +1,18 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Player>>
+Wait so how does this game work?
+
+<<change_speaker Kevin>>
+<<change_emotion Kevin Win>>
+WELL
+<<change_emotion Kevin Idle>>
+You just use the arrow keys to move the paddle and hit with the spacebar.
+If you're good like me you can control the angle of the ball
+But you gotta think quick for that.
+Also we're playing best 4 out of 7. First person to beat everyone WINS.
+That's not how it usually works
+But I guess this tournament got hijacked by NOOBS.
+<<end_speaker>>
+===

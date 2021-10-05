@@ -1,0 +1,29 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Kevin>>
+You need me to explain again?
+
+[[I'm good | No]]
+[[Yeah | Yes]]
+===
+
+title: No
+tags:
+---
+<<end_speaker>>
+===
+
+title: Yes
+tags:
+---
+<<change_speaker Kevin>>
+You just use the arrow keys to move the paddle and hit with the spacebar.
+If you're good like me you can control the angle of the ball
+But you gotta think quick for that.
+Also we're playing best 4 out of 7. First person to beat everyone WINS.
+
+<<change_speaker Player>>
+Ok thanks!
+<<end_speaker>>
+===

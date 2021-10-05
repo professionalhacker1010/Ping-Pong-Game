@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 3a2833b7b21e56641b3a3b50310205b9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - NewFile-Start-0
+  - NewFile-Start-1
+  - NewFile-Start-2
+  - NewFile-Start-3
+  - NewFile-dogEatBall-4
+  - NewFile-dogEatBall-5
+  - NewFile-dogEatBall-6
+  - NewFile-dogEatBall-7
+  - NewFile-youEatBall-8
+  - NewFile-youEatBall-9
+  - NewFile-youEatBall-10
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 3a2833b7b21e56641b3a3b50310205b9, type: 3}
+  localizations: []

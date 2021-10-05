@@ -1,0 +1,54 @@
+﻿title: Start
+tags:
+---
+<<start_speaker GameDev>>
+...
+you wanna play my game again
+[[Sure! | startGame]]
+[[Ask a question | question]]
+<<end_speaker>>
+===
+
+title: startGame
+---
+<<end_speaker>>
+===
+
+title: question
+---
+<<change_speaker Player>>
+Actually I have a question.
+Do you like fried {$item}??
+
+<<change_speaker GameDev>>
+not really why
+
+<<change_speaker Player>>
+I don't know. I feel like I'm the only one.
+
+<<change_speaker GameDev>>
+i think you are.
+i don't know why anyone would legitimately like that stuff
+unless you really liked {$item}
+even then maybe you would like it as a fun gimmick
+but not actually to eat it
+why do YOU like it?
+
+<<change_speaker Player>>
+Well I've never had it before but
+I'll eat anything honestly!
+And I come here like every day.
+I trust them to make something good.
+
+<<change_speaker GameDev>>
+interesting
+what do you usually order
+
+<<change_speaker Player>>
+-> Fried chicken
+-> Chicken sandwich
+
+<<change_speaker GameDev>>
+nice.
+<<end_speaker>>
+===

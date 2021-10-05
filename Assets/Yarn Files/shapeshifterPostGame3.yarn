@@ -1,0 +1,20 @@
+﻿title: Start
+tags:
+---
+<<start_speaker Player>>
+Hey.
+[[Can you do the thing? | shapeshift]]
+[[Nevermind. | exit]]
+===
+
+title: shapeshift
+tags:
+---
+<<disable_bubble CutsceneDB>>
+<<shapeshift>>
+<<enable_bubble CutsceneDB>>
+===
+
+title: exit
+---
+===

@@ -1,0 +1,29 @@
+title: Start
+tags: 
+colorID: 0
+position: 418,174
+---
+Dog: Hi ho diggity Cat! I sure do love ping pong! I wonder what a fried ping pong ball tastes like?
+Cat: Please don't.
+[[Give Dog a ping pong ball |dogEatBall]]
+[[Eat a ping pong ball |youEatBall]]
+===
+title: dogEatBall
+tags: 
+colorID: 0
+position: 242,541
+---
+Dog: Why thank you kind stranger!
+Cat: No! Dog!
+Cat: Bad Dog! Down!
+Dog: Mmmm... crunchy!
+===
+title: youEatBall
+tags: 
+colorID: 0
+position: 600,543
+---
+Narration: You crunch down on the greasy plastic ping pong ball. It's not bad!
+Dog: *sniff* Well, I guess winner gets the ball.
+Cat: Thank goodness.
+===

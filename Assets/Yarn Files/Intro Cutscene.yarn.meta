@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: f5595ddd28befc14f9442cff06cacc30
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Intro Cutscene-Start-0
+  - Intro Cutscene-Start-1
+  - Intro Cutscene-Start-2
+  - Intro Cutscene-Start-3
+  - Intro Cutscene-Start-4
+  - Intro Cutscene-Start-5
+  - Intro Cutscene-Start-6
+  - Intro Cutscene-Start-7
+  - Intro Cutscene-Start-8
+  - Intro Cutscene-Start-9
+  - Intro Cutscene-Start-10
+  - Intro Cutscene-Start-11
+  - Intro Cutscene-Start-12
+  - Intro Cutscene-Start-13
+  - Intro Cutscene-Start-14
+  - Intro Cutscene-Start-15
+  - Intro Cutscene-Start-16
+  - Intro Cutscene-Start-17
+  - Intro Cutscene-Start-18
+  - Intro Cutscene-Start-19
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: f5595ddd28befc14f9442cff06cacc30, type: 3}
+  localizations: []

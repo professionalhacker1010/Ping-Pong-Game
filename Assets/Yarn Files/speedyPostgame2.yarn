@@ -1,0 +1,12 @@
+﻿title: Start
+tags:
+---
+<<change_emotion Speedy idle>>
+<<start_speaker Speedy>>
+Heyyyy... You wanna play again?
+
+[[Yes | yes]]
+[[]]
+
+<<end_speaker>>
+===

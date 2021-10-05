@@ -1,0 +1,66 @@
+title: Start
+tags: 
+colorID: 0
+position: 374,87
+---
+//hole opening transition
+<<change_BG CutsceneDB transparent>>
+<<disable_bubble CutsceneDB>>
+<<wait 3>>
+<<enable_bubble CutsceneDB>>
+<<change_bubble_loc CutsceneDB introSpeaker>>
+Hey.
+What's your most favorite thing in the whole wide world?
+
+<<change_bubble_loc CutsceneDB introPlayer>>
+Oh! That's a tough one.
+But I would have to say it's..
+
+<<item_prompt>>
+
+<<change_bubble_loc CutsceneDB introSpeaker>>
+You said a {$item} is your favorite thing?
+
+[[Well actually...|changeItem]]
+[[Definitely|keepItem]]
+===
+
+title: changeItem
+tags: 
+colorID: 0
+position: 374,87
+---
+<<item_prompt>>
+
+<<change_bubble_loc CutsceneDB introPlayer>>
+A {$item} is my favorite thing.
+
+<<change_bubble_loc CutsceneDB introSpeaker>>
+Is it?
+
+[[Wait wait no...|changeItem]]
+[[Definitely|keepItem]]
+===
+
+title: keepItem
+tags: 
+colorID: 0
+position: 374,87
+---
+Wow. What a coincidence!
+You know that
+if you play at Fried and Fancy's 5th Annual Ping Pong Tournament
+you could win a whole bucket of DEEP FRIED {$item}?
+
+<<change_bubble_loc CutsceneDB introPlayer>>
+Um. Please tell me you're joking.
+
+<<change_bubble_loc CutsceneDB introSpeaker>>
+I'm not!
+
+<<change_bubble_loc CutsceneDB introPlayer>>
+...
+.............
+.................................................................................................................
+<<end_scene1 CutsceneDB>>
+===

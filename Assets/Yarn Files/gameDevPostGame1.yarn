@@ -1,0 +1,59 @@
+﻿title: Start
+tags:
+---
+<<change_emotion GameDev sitStill>>
+<<start_speaker GameDev>>
+...
+<<disable_bubble CutsceneDB>>
+<<wait 3>>
+<<enable_bubble CutsceneDB>>
+so... what did you think...
+[[I liked it! | liked]]
+[[I did not like it | disliked]]
+===
+
+title: liked
+---
+<<change_speaker Player>>
+It REALLY surprised me!!
+Even if I couldn't tell what was intentional or not.
+But like the button mashing at the end? That was different! It was cool.
+
+<<change_speaker GameDev>>
+ok... i appreciate your feedback...
+[[end]]
+===
+
+title: disliked
+---
+<<change_speaker Player>>
+It was kind of a trashfire.
+There were multiple glitches that made it very hard to play.
+And somehow it crashed your computer.
+I was excited to see what the button mashing would do though!
+
+<<change_speaker GameDev>>
+ok... i appreciate your honesty...
+[[end]]
+===
+
+title: end
+---
+yeah the button mashing was supposed to connect you to a random server
+where you and a bunch of other players are button mashing together
+and you all have to power up this thing
+and then you win and become part of each others team
+forever
+kind of simulating how you can't choose the family you're born into
+and have to learn how to deal with them
+<<disable_bubble CutsceneDB>>
+
+<<wait 2>>
+
+<<enable_bubble CutsceneDB>>
+actually
+eh
+thanks for playing though
+<<change_emotion GameDev typing>>
+<<end_speaker>>
+===

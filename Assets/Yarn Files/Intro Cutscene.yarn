@@ -1,0 +1,75 @@
+title: Start
+tags: 
+colorID: 0
+position: 374,87
+---
+//hole opening transition
+<<change_BG CutsceneDB parkPicnic>>
+<<disable_bubble CutsceneDB>>
+<<wait 3>>
+<<enable_bubble CutsceneDB>>
+NARRATOR: Ah, what a beautiful day for a picnic.
+NARRATOR: The warm sun, the light breeze, and your most favorite thing beside you.
+
+<<item_prompt>>
+NARRATOR: Yes, having your {$item} by your side makes this day one of the best.
+NARRATOR: You reach to give your {$item} a big hug-
+
+<<pan_parkPicnic CutsceneDB>>
+<<wait 2>>
+<<change_bubble_loc CutsceneDB blanket>>
+NARRATOR: HUH?
+NARRATOR: Some chump stole your {$item}!
+NARRATOR: There! After them!
+
+
+
+<<transition CutsceneDB openingCeremony>>
+<<disable_bubble CutsceneDB>>
+<<wait .8>>
+<<reset_BG_transform CutsceneDB>>
+<<wait 2>>
+<<enable_bubble CutsceneDB>>
+THEIF: Th-that's right folks!
+THEIF: Play hard, play smart
+THEIF: And you just might be the new champion of Warehouse Bargain's 5th annual ping-pong tournament...
+THEIF: I'm out of breath because of a medical condition by the way.
+<<change_bubble_loc CutsceneDB crowd>>
+CROWD: Ooooooh!
+
+<<change_BG CutsceneDB fence>>
+<<change_bubble_loc CutsceneDB fence>>
+NARRATOR: Did he just steal your {$item} for a parking lot ping-pong tournament?
+NARRATOR: Well your {$item} is pretty great...
+
+<<change_BG CutsceneDB openingCeremony>>
+<<change_bubble_loc CutsceneDB announcer>>
+THEIF: And what is this grand prize, this light at the end of the tunnel?
+THEIF: What do we love to have after a long day?
+THEIF: What meal smells like lead n' tastes like heaven (TM)?
+
+<<change_BG CutsceneDB friedItem>>
+<<disable_bubble CutsceneDB>>
+<<wait 2>>
+<<enable_bubble CutsceneDB>>
+<<change_bubble_loc CutsceneDB fried>>
+THEIF: It's Fried and Fancy's new all-natural fried {$item}! Give our sponsor a round of applause!
+*crowd cheer sound effect*
+
+<<change_BG CutsceneDB fence>>
+<<change_bubble_loc CutsceneDB fence>>
+NARRATOR: No way... He deep-fried your {$item}...
+<<change_BG CutsceneDB fence2>>
+<<disable_bubble CutsceneDB>>
+<<wait 1>>
+<<enable_bubble CutsceneDB>>
+NARRATOR: The thought of any of those ping pong jocks eating YOUR {$item}...
+NARRATOR: No.
+NARRATOR: You're gonna go in there
+NARRATOR: Prove what a JOKE this whole thing is
+NARRATOR: AVENGE YOUR {$item}
+NARRATOR: And WIN this ping pong tournament!
+//play ANIMATION: logo bursting through the fence
+<<change_sprite CutsceneDB logoBurst>>
+<<end_scene1 CutsceneDB>>
+===
