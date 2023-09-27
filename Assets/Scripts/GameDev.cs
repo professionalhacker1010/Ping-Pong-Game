@@ -141,7 +141,8 @@ public class GameDev : Opponent
     {
         if (!introPlayed)
         {
-            StartCoroutine(Intro());
+            //StartCoroutine(Intro());
+            introPlayed = true;
             return;
         }
 
@@ -351,7 +352,7 @@ public class GameDev : Opponent
 
     public override IEnumerator PlayServeAnimation(float waitTime)
     {
-        //yield return new WaitForSeconds(waitTime);
+        yield return new WaitForSeconds(waitTime);
         print("play serve animation");
         yield return GlitchUI(playerScore, playerScoreCollider);
         StartCoroutine(GlitchUI(opponentScore, opponentScoreCollider));

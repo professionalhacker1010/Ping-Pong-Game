@@ -5970,17 +5970,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   opponents:
-  - {fileID: 1189773786}
-  - {fileID: 231636024}
-  - {fileID: 348216949}
   - {fileID: 1583804325}
   - {fileID: 711851734}
+  - {fileID: 348216949}
+  - {fileID: 231636024}
+  - {fileID: 1189773786}
   opponentObjects:
-  - {fileID: 1189773783}
-  - {fileID: 231636022}
-  - {fileID: 348216948}
   - {fileID: 1583804323}
   - {fileID: 711851731}
+  - {fileID: 348216948}
+  - {fileID: 231636022}
+  - {fileID: 1189773783}
   numbers:
   - {fileID: 21300000, guid: aa7e5ed701b6570448284762d9041b0f, type: 3}
   - {fileID: 21300000, guid: cfa96b60fbfa1734191c0139a3f6dac8, type: 3}

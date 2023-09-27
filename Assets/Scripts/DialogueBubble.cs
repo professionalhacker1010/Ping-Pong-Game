@@ -66,16 +66,6 @@ public class DialogueBubble : MonoBehaviour
 
     public IEnumerator ExitBubbleHelper()
     {
-        //print("exit bubble");
-
-        //overshoot frames
-        /*bottomLeft.anchoredPosition = new Vector2(bottomLeft.anchoredPosition.x, bottomLeft.anchoredPosition.y - overshootHeight);
-        bottomRight.anchoredPosition = new Vector2(bottomRight.anchoredPosition.x, bottomRight.anchoredPosition.y - overshootHeight);
-        width.sizeDelta = new Vector2(width.sizeDelta.x, width.sizeDelta.y + overshootHeight);
-        height.sizeDelta = new Vector2(height.sizeDelta.x, height.sizeDelta.y + overshootHeight);
-        tail.anchoredPosition = new Vector2(tail.anchoredPosition.x, tail.anchoredPosition.y + overshootHeight); //tail
-        yield return new WaitForSeconds(2 / (30*enterExitSpeed));*/
-
         //play exit bubble animation
         TransparentStaticBubble();
         //tail.anchoredPosition = new Vector2(tail.anchoredPosition.x, tail.anchoredPosition.y - overshootHeight); //tail
